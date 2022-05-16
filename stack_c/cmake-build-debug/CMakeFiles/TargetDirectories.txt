@@ -1,0 +1,3 @@
+D:/repos/algos_c/stack_c/cmake-build-debug/CMakeFiles/stack_c.dir
+D:/repos/algos_c/stack_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/repos/algos_c/stack_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

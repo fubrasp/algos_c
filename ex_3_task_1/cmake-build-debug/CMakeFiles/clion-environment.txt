@@ -1,0 +1,4 @@
+ToolSet: 15.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/programmesV2/Jetbrains/apps/CLion/ch-0/213.7172.20/bin/ninja/win/ninja.exe

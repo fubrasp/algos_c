@@ -1,0 +1,34 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Compilateur d'optimisation Microsoft (R) C/C++ version 19.16.27045 pour x86
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27045.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/repos/algos_c/radix_tree/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/repos/algos_c/radix_tree/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/programmesV2/Jetbrains/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe cmTC_d48a3 && [1/2] Building C object CMakeFiles\cmTC_d48a3.dir\CMakeCCompilerABI.c.obj
+Remarque : inclusion du fichier :  d:\programmesv2\jetbrains\apps\clion\ch-0\221.5080.224\bin\cmake\win\share\cmake-3.22\modules\CMakeCompilerABI.h
+[2/2] Linking C executable cmTC_d48a3.exe
+
+
+
