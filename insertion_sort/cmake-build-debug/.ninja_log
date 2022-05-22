@@ -1,0 +1,15 @@
+# ninja log v5
+0	205	6749436456943377	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+210	911	6749436463461079	insertion_sort.exe	147ad129e6d0cefb
+0	70	6749437966289770	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+70	511	6749437970370556	insertion_sort.exe	147ad129e6d0cefb
+0	195	6749438385818715	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+195	620	6749438389733360	insertion_sort.exe	147ad129e6d0cefb
+0	68	6749438531364388	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+68	504	6749438535371063	insertion_sort.exe	147ad129e6d0cefb
+1	210	6749438851011511	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+211	631	6749438854916921	insertion_sort.exe	147ad129e6d0cefb
+0	69	6749438968195044	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+74	498	6749438972156630	insertion_sort.exe	147ad129e6d0cefb
+0	201	6749441126138611	CMakeFiles/insertion_sort.dir/main.c.obj	1f2f45a7e85e7359
+201	617	6749441129993674	insertion_sort.exe	147ad129e6d0cefb

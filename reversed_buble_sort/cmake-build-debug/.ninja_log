@@ -1,0 +1,7 @@
+# ninja log v5
+0	192	6746036080611150	CMakeFiles/reversed_buble_sort.dir/main.c.obj	22728feb6c602139
+192	919	6746036087330997	reversed_buble_sort.exe	fd195144fe004c8b
+1	207	6746036311402731	CMakeFiles/reversed_buble_sort.dir/main.c.obj	22728feb6c602139
+207	643	6746036315439543	reversed_buble_sort.exe	fd195144fe004c8b
+0	66	6746037655246661	CMakeFiles/reversed_buble_sort.dir/main.c.obj	22728feb6c602139
+66	478	6746037659028978	reversed_buble_sort.exe	fd195144fe004c8b
