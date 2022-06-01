@@ -30,7 +30,7 @@ rule C_COMPILER__red_black_tree_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__red_black_tree_Debug
-  command = cmd.exe /C "$PRE_LINK && D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests $MANIFESTS -- C:\PROGRA~2\MICROS~3\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests $MANIFESTS -- C:\PROGRA~2\MICROS~3\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\repos\algos_c\red_black_tree -BD:\repos\algos_c\red_black_tree\cmake-build-debug
+  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\repos\algos_c\red_black_tree -BD:\repos\algos_c\red_black_tree\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -56,7 +56,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5080.224\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5591.52\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -64,6 +64,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5080.224\bin\ninja\win\ninja.exe -t targets
+  command = D:\programmesV2\Jetbrains\apps\CLion\ch-0\221.5591.52\bin\ninja\win\ninja.exe -t targets
   description = All primary targets available:
 

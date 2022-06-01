@@ -5,16 +5,28 @@
 
 #include <stdio.h>
 
-void swap(int* xp, int* yp)
-{
+void swap(int *xp, int *yp) {
     int temp = *xp;
     *xp = *yp;
     *yp = temp;
 }
 
+void bubble_sort_variante(int A[], int n) {
+    int i;
+    for (i = n - 1; i >= 1; i--) {
+        int j;
+        for (j = 1; j <= i; j++) {
+            if (A[j] < A[j - 1]) {
+                int temp = A[j];
+                A[j] = A[j - 1];
+                A[j - 1] = temp;
+            }
+        }
+    }
+}
+
 // A function to implement bubble sort
-void bubbleSort(int arr[], int n)
-{
+void bubbleSort(int arr[], int n) {
     int i, j;
     for (i = 0; i < n - 1; i++)
 
@@ -25,8 +37,7 @@ void bubbleSort(int arr[], int n)
 }
 
 /* Function to print an array */
-void printArray(int arr[], int size)
-{
+void printArray(int arr[], int size) {
     int i;
     for (i = 0; i < size; i++)
         printf("%d ", arr[i]);
@@ -34,9 +45,8 @@ void printArray(int arr[], int size)
 }
 
 // Driver program to test above functions
-int main()
-{
-    int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
     printf("Sorted array: \n");

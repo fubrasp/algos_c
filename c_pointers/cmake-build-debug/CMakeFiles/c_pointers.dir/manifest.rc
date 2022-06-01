@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/repos/algos_c/c_pointers/cmake-build-debug/CMakeFiles/c_pointers.dir/embed.manifest"

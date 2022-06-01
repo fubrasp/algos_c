@@ -3,4 +3,4 @@ project(red_black_tree C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(red_black_tree main.c)
+add_executable(red_black_tree main2.c)
